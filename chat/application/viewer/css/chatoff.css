@@ -1,0 +1,201 @@
+html, body
+{
+	width:100%;
+	height:100%;
+	overflow:auto;
+	margin: 0px;
+	padding:0px;
+	font-family: 'Iceland', cursive;
+}
+ 
+form
+{
+	margin:0;
+	padding:0;
+}
+
+
+/* contenitore e sfondo della pagina */
+#wrapper
+{
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	position:absolute;
+	background: repeating-linear-gradient(
+		45deg,
+		#FFFFFF,
+		#FFFFFF 4px,
+		#D7D7D7 4px,
+		#D7D7D7 5px
+	);	
+}
+
+
+.msgln_light
+{
+	background-color:#C9C9C9;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.msgln_dark
+{
+	background-color:#B9B9B9;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.bbcode_button
+{
+	width:20px;
+	height:20px;
+	background-color:#F2F2F5;
+	border:1px solid #003250;
+	display:inline-block
+}
+ 
+.d_table
+{
+	display:table;
+	width:100%;
+	height:100%;
+}
+
+.d_cell
+{
+	display:table-cell;
+	width:100%;
+	height:100%;
+    text-align: center;
+    vertical-align: middle	
+} 
+ 
+.error
+{
+	color: #ff0000;
+} 
+ 
+
+/* contenitore della chat */ 
+#chatbox_wrapper
+{
+	position:absolute;
+	left:30px;
+	right:30px;
+	top:50px;
+	bottom: 75px;
+	background-color:#FFFFFF;
+	border-left:1px solid #636363;
+	border-right:1px solid #636363;
+	
+}
+
+/* div della chat */
+#chatbox
+{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	overflow:auto;
+}
+
+#input
+{
+	display:block;
+	position:absolute;
+	left:5px;
+	right:5px;
+	height:75px;
+	bottom:0px;
+}
+
+#input_inner
+{
+	display:block;
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	background: linear-gradient(to bottom,  #ebebeb 0%,#838383 100%); /* W3C */	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border:1px solid #636363;	
+}
+
+#user_name
+{
+    text-align: left;
+	padding-left:25px;
+}
+
+.input_text, .input_tag
+{
+	width:400px;
+	border:1px solid #636363;
+}
+ 
+.input_tag
+{
+	width:100px;
+} 
+  
+#submit
+{
+	width: 60px;
+}
+
+/* contenitore del div in alto con il nome del pg */  
+#menu
+{
+	position:absolute;
+	left:5px;
+	right:5px;
+	height:50px;
+	top:0px;
+}
+
+/* in alto con il nome del pg */  
+#menu_inner
+{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	top:0px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size:24px;
+	color:#000000;
+	background: linear-gradient(to bottom,  #ebebeb 0%,#838383 100%); /* W3C */	
+	border:1px solid #636363;	
+}
+
+button.custom
+{
+	background-color: #F2F2F5;
+	border:1px solid #636363;
+	border-radius: 12px;
+	color: #1a3e66;
+	padding: 2px 20px 2px 20px;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+
+}
+
+button.custom:hover
+{
+	background-color: #BBD2E0;
+	border: 1px solid #003250;
+	color: #163659;
+	cursor: pointer;
+}
+
+button.custom:active
+{
+	border: 1px solid #003250;
+}
