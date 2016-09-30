@@ -1,3 +1,6 @@
 [submodule "chat"]
 	path = chat
 	url = https://github.com/Dyrr/chat_off
+[submodule "browscap-php"]
+	path = browscap-php
+	url = https://github.com/Dyrr/browscap-php
